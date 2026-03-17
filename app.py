@@ -46,8 +46,8 @@ if st.button("🔥 운명의 메뉴 뽑기", use_container_width=True):
         
         # 결과 발표
         st.balloons() # 풍선 효과
-        st.markdown(f"<h1 style='text-align: center; color: #FF4B4B;'>🎊 {selected} 🎊</h1>", unsafe_content=True)
-        st.markdown("<p style='text-align: center; font-size: 20px;'>오늘 당신의 운명은 이것입니다!</p>", unsafe_content=True)
+        st.markdown(f"<h1 style='text-align: center; color: #FF4B4B;'>🎊 {selected} 🎊</h1>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; font-size: 20px;'>오늘 당신의 운명은 이것입니다!</p>", unsafe_allow_html=True)
         
         # 하찮은 코멘트 랜덤 출력
         comments = [
